@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_app_2/constants/app_colors.dart';
-import 'package:health_app_2/constants/routes/route_builder.dart';
-
+import 'package:health_app_2/core/constants/app_colors.dart';
+import 'package:health_app_2/core/routes/route_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,12 +24,6 @@ class MyApp extends StatelessWidget {
       title: 'Health App',
       theme: ThemeData(
         scaffoldBackgroundColor: AppColors.white,
-        // appBarTheme: const AppBarTheme(
-        //   titleTextStyle:  TextStyle(color: Colors.black,
-        //   fontFamily: 'lato',
-        //   fontSize: 16,
-        //   fontWeight: ),
-        // )
         primaryColor: Colors.orange,
         bottomSheetTheme:
             const BottomSheetThemeData(surfaceTintColor: Colors.white),
@@ -44,7 +37,7 @@ class MyApp extends StatelessWidget {
             error: AppColors.red,
             onError: AppColors.red,
             surface: AppColors.white,
-            onSurface: AppColors.black),
+            onSurface: AppColors.grayText),
         useMaterial3: true,
         // inputDecorationTheme: to be put,
         textButtonTheme: const TextButtonThemeData(
@@ -62,13 +55,13 @@ class MyApp extends StatelessWidget {
                   color: AppColors.grayText))),
         ),
         textTheme: const TextTheme(
-          displayLarge: TextStyle(fontSize: 24, fontFamily: "HauoraBold"),
-          displayMedium: TextStyle(fontSize: 16, fontFamily: "SatoshiRegular"),
-          displaySmall: TextStyle(fontSize: 12, fontFamily: "HauoraRegular"),
-          titleMedium: TextStyle(fontSize: 16, fontFamily: "HauoraRegular"),
-          bodyLarge: TextStyle(fontSize: 18, fontFamily: "HauoraRegular"),
-          bodyMedium: TextStyle(fontSize: 16, fontFamily: "HauoraRegular"),
-          bodySmall: TextStyle(fontSize: 14, fontFamily: "HauoraRegular"),
+          displayLarge: TextStyle(fontSize: 24, fontFamily: "Manrope"),
+          displayMedium: TextStyle(fontSize: 16, fontFamily: "Manrope"),
+          displaySmall: TextStyle(fontSize: 12, fontFamily: "ManropeBold"),
+          titleMedium: TextStyle(fontSize: 16, fontFamily: "Manrope"),
+          bodyLarge: TextStyle(fontSize: 18, fontFamily: "Manrope"),
+          bodyMedium: TextStyle(fontSize: 16, fontFamily: "Manrope"),
+          bodySmall: TextStyle(fontSize: 14, fontFamily: "Manrope"),
         ),
       ),
       builder: (context, child) =>
