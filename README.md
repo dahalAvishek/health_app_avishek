@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # health_app_2
 
 A new Flutter project.
@@ -15,6 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-=======
-# health_app_avishek
->>>>>>> 682010a8d4b9cdddfd3e0e375e675ed7caabd0e8

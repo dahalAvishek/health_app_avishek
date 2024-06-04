@@ -25,4 +25,5 @@ class HealthAppFonts {
   static const IconData history = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData settings = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData right = IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }

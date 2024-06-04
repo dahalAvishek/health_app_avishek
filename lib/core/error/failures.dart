@@ -39,3 +39,5 @@ class StorageFailure extends Failure {
 }
 
 class NotFoundFailure extends Failure {}
+
+class ServerException implements Exception {}

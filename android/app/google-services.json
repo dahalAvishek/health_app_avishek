@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511990390430",
+    "project_id": "health-app-4a4c9",
+    "storage_bucket": "health-app-4a4c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511990390430:android:2d2f285327fc679c49658f",
+        "android_client_info": {
+          "package_name": "com.avishek.health_app_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACbAHPS8jmxcbFc5SgxawISwsJOg5wXkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511990390430:android:3629ce363abeea2c49658f",
+        "android_client_info": {
+          "package_name": "com.company.health_app_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACbAHPS8jmxcbFc5SgxawISwsJOg5wXkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
